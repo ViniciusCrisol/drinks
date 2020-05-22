@@ -6,10 +6,12 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
-export const Item = styled.div`
+export const Item = styled.button`
   height: auto;
   margin: 6px;
 
+  background: none;
+  border: 0;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 0px;
@@ -34,4 +36,10 @@ export const Item = styled.div`
       font-size: 18px;
     }
   }
+`;
+
+export const DrinkNotFound = styled.h1`
+  margin-top: 124px;
+
+  color: #bbb;
 `;

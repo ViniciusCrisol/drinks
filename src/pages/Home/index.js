@@ -19,6 +19,14 @@ function Home({ history }) {
     loadDrinks();
   }, []);
 
+  function handleSubmit(idDrink) {
+    history.push(`/drinks/${idDrink}`);
+  }
+
+  function handleSubmitType(type) {
+    history.push(`/drinks/${type}/type/search`);
+  }
+
   return (
     <>
       <Menu history={history} />
@@ -27,14 +35,22 @@ function Home({ history }) {
           <DrinkImage>
             <h1>A suggestion for your day!!!</h1>
             {randomDrink.map((drink) => (
-              <img src={drink.strDrinkThumb} alt="" />
+              <button type="button" onClick={() => handleSubmit(drink.idDrink)}>
+                <img src={drink.strDrinkThumb} alt={drink.strDrink} />
+              </button>
             ))}
           </DrinkImage>
           <section>
-            <h1>Drink types</h1>
-            <span>Alcoholic</span>
-            <span>Non alcoholic</span>
-            <span>Alcoholic</span>
+            <h2>Drink types</h2>
+            <button type="button" onClick={() => handleSubmitType('Alcoholic')}>
+              Alcoholic
+            </button>
+            <button
+              type="button"
+              onClick={() => handleSubmitType('Non_Alcoholic')}
+            >
+              Non alcoholic
+            </button>
           </section>
         </div>
       </Container>
