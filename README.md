@@ -4,7 +4,7 @@
 
 # 
 
-![](https://i.ibb.co/R3pBmPm/screencast-localhost-3000-2020-05-22-13-13-27.gif)
+![](https://i.ibb.co/wyF4DgY/React-App-3.gif)
 
 ### Descrição do projeto
 
