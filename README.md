@@ -8,4 +8,4 @@
 
 ### Descrição do projeto
 
-Projeto desenvolvido com o objetivo de estudar ReactJs, utilizando API's externas.
+Projeto desenvolvido com o objetivo de estudar ReactJs utilizando API's externas.
