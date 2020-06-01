@@ -14,7 +14,7 @@ Projeto desenvolvido com o objetivo de estudar ReactJs utilizando API's externas
 
 #
 
-![](https://i.ibb.co/wMQQPNd/drinsk-1.gif)
+![](https://i.ibb.co/Ch99Y5w/drinsk-1.gif)
 
 #
 
